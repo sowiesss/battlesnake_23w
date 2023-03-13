@@ -17,6 +17,17 @@ def close_to(my_snake, opponent, dis):
         return False
 
 
+# Helper function that prevents snake from colliding with opponents
+def avoid_others():
+    # TODO
+    return
 
 
-       
+#TODO prevents snake from colliding with itself
+def avoid_myself(my_body, is_move_safe):
+    return
+
+
+# TODO prevents snake from colliding with wall
+def check_wall(my_head, game_state, is_move_safe):
+    return
