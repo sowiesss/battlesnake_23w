@@ -31,3 +31,5 @@ def avoid_myself(my_body, is_move_safe):
 # TODO prevents snake from colliding with wall
 def check_wall(my_head, game_state, is_move_safe):
     return
+
+def find_food():
